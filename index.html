@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Traductor KaiOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="banner">
+            <!-- Coloca aquí tu imagen de banner si es necesario -->
+        </div>
+        <div class="app-info">
+            <img src="icon112.png" class="app-icon" alt="Icono de la Aplicación">
+            <div class="app-details">
+                <h1 class="app-name">Traductor KaiOS</h1>
+                <p class="app-description">¡Traduce texto en el idioma que quieras!.</p>
+            </div>
+        </div>
+        <textarea id="sourceText" class="fixed-textarea" placeholder="Texto a traducir"></textarea>
+        <div id="detectedLanguage" class="detected-language"></div>
+        <div class="translation-controls">
+        <select id="targetLanguageSelect" title="Selecciona un idioma al que traducir">
+            <option value="en">Inglés</option>
+            <option value="zh-CN">Mandarín</option>
+            <option value="es">Español</option>
+            <option value="fr">Francés</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugués</option>
+            <option value="ru">Ruso</option>
+            <option value="ar">Árabe</option>
+            <option value="hi">Hindú</option>
+            <option value="de">Alemán</option>
+            <option value="ja">Japonés</option>
+        </select>
+        <button id="translateButton">Traducir</button>
+        </div>
+        <div id="translationResult" class="result"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

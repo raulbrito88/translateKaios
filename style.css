@@ -1,0 +1,138 @@
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    background-color: #323232f5; /* Fondo oscuro según la paleta de colores */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 10px;
+    max-width: 240px; /* Ancho máximo según la documentación */
+    margin: 0 auto; /* Centra el contenido horizontalmente */
+    margin-bottom: 10px;
+}
+
+.banner {
+    /* Estilo del banner de marketing según la documentación */
+    background-image: url('img_AppName.jpg'); /* Reemplaza con la imagen de tu banner */
+    background-size: cover;
+    width: 100%;
+    height: 130px; /* Altura según la documentación */
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+.app-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px; /* Espacio entre el banner y la información de la aplicación */
+}
+
+.app-icon {
+    width: 56px; /* Tamaño del icono según la documentación */
+    height: 56px;
+    border-radius: 50%; /* Forma redonda según la documentación */
+    margin-right: 10px; /* Espacio entre el icono y los detalles de la aplicación */
+    margin-bottom: 10px;
+}
+
+.app-details {
+    text-align: left;
+}
+
+.app-name {
+    font-size: 17px; /* Tamaño de fuente según la documentación */
+    font-weight: 600; /* Grosor de fuente según la documentación */
+    color: #ffffff; /* Color de fuente según la paleta de colores */
+    margin: 0;
+    padding: 0;
+}
+
+.app-description {
+    font-size: 14px; /* Tamaño de fuente según la documentación */
+    color: #ffffff; /* Color de fuente según la paleta de colores */
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.fixed-textarea {
+    /* width: 230px; */ /* Ancho fijo del cuadro de texto */
+    height: 100px; /* Altura fija del cuadro de texto */
+    padding: 5px;
+    font-size: 17px; /* Tamaño de fuente según la documentación */
+    background-color: #ffffff; /* Fondo blanco según la paleta de colores */
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+select {
+    width: 230px; /* Ancho fijo del cuadro de texto */
+    height: 30px; /* Altura fija del cuadro de texto */
+    padding: 5px;
+    font-size: 17px; /* Tamaño de fuente según la documentación */
+    background-color: #ffffff; /* Fondo blanco según la paleta de colores */
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+}
+
+button {
+    width: 10;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px; /* Tamaño de fuente según la documentación */
+    background-color: #8500DC; /* Color de fondo según la paleta de colores */
+    color: #ffffff; /* Color de fuente según la paleta de colores */
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px; 
+}
+
+.result {
+    margin-top: 10px; /* Espacio entre el botón y el resultado */
+    font-size: 14px; /* Tamaño de fuente según la documentación */
+    color: #ffffff; /* Color de fuente según la paleta de colores */
+    width: 230px; /* Ancho fijo del cuadro de texto */
+    height: 100px; /* Altura fija del cuadro de texto */
+    padding: 5px;
+    font-size: 17px; /* Tamaño de fuente según la documentación */
+    border: none;
+}
+
+.detected-language {
+    color: #ffffff; /* Color de fuente blanco */
+    margin-bottom: 10px;
+}
+
+#translateButton {
+    height: 30px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: #8500DC;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px; /* Agrega bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al puntero al pasar el ratón */
+    transition: background-color 0.3s ease; /* Agrega una transición suave al color de fondo */
+    width: 50%; /* O ajusta el porcentaje deseado para el botón */
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+  }
+
+#translateButton:hover {
+    background-color: #6a00a9; /* Cambia el color de fondo al pasar el ratón por encima */
+}
+
+.translation-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  #targetLanguageSelect {
+    margin-right: 10px; /* Espacio entre el select y el botón */
+    width: 50%; /* O ajusta el porcentaje deseado para el cuadro de selección */
+  }

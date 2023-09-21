@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0",
+  "name": "Traductor KaiOS",
+  "description": "Una aplicación de traducción de texto simple para KaiOS",
+  "type": "web",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/icon56.png",
+    "112": "/icon112.png"
+  },
+  "developer": {
+    "name": "Raúl José Brito",
+    "url": "https://github.com/raulbrito88/"
+  },
+  "locales": {
+    "es-ES": {
+      "name": "Traductor KaiOS",
+      "subtitle": "Traduce texto en el idioma que quieras.",
+      "description": "Una aplicación de traducción de texto simple para KaiOS."
+    },
+    "es": {
+      "name": "Traductor KaiOS",
+      "subtitle": "Traduce texto en el idioma que quieras.",
+      "description": "Una aplicación de traducción de texto simple para KaiOS."
+    }
+  },
+  "default_locale": "es-ES"
+}
